@@ -8,8 +8,9 @@ document.getElementById("p2").innerHTML = "Player 2: " + player2Score;
 
 document.getElementById("myButton").onclick = function() {
     username = document.getElementById("myText").value;
-    console.log(username);
+    document.getElementById("myLabel").innerHTML = "Hello " + username + " " + "Let's Play!";
 }
+
 
 
 
